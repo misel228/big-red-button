@@ -26,7 +26,7 @@ void loop() {
      // type windows shutdown ('shutdown -s -t 0)
      Keyboard.print("shutdown ");
      Keyboard.write(192);
-     Keyboard.println("s ");
+     Keyboard.print("s ");
      Keyboard.write(192);
      Keyboard.println("t 0 ");
    }
